@@ -17,7 +17,8 @@ members = [
 exclude = [
     "shared/elusiv-test"
 ]
-
+[patch.crates-io]
+getrandom = { version = "0.2.16", default-features = false }
 [features]
 mainnet = [
     "elusiv-proc-macros/mainnet",
